@@ -24,12 +24,15 @@
   position: relative;
 }
 
+.logo {
+  width: 228px;
+  height: 32px;
+}
+
 .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
-  width: 228px;
-  height: 32px;
 }
 
 .header__title {
@@ -118,6 +121,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
+  margin-bottom: 0;
 }
 
 .two-columns__paragraph:first-child {
@@ -235,7 +239,7 @@
 
 .kaufman {
   padding: 90px 0;
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: white;
   z-index: -3;
   box-sizing: border-box;
@@ -250,12 +254,9 @@
 }
 
 .section-title__theme_dark {
-  width: 60%;
-  margin: 0 auto;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
+  margin-bottom: 0;
 }
+
 .section-subtitle__theme_dark {
   width: 60%;
   line-height: 34px;
@@ -296,7 +297,7 @@
   display: flex;
   justify-content: center;
   padding: 60px 0 40px 0;
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: rgb(255, 255, 255);
   box-sizing: border-box;
   min-height: 350px;
@@ -321,8 +322,6 @@
 .logo_place_footer {
   left: 0;
   top: 0;
-  width: 228px;
-  height: 32px;
   align-items: flex-start;
 }
 
@@ -383,3 +382,4 @@
   color: rgb(255, 255, 255);
   list-style: none; 
 }
+
